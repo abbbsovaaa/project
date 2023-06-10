@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./download\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.logo img {
+    margin-left: 40px;
+    margin-top: 5px;
+    float: left;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+
+
+.cart1 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./2019\ Azerbaijan\ GP\ -\ The\ Formula\ 1\ Street\ F1ght\ in\ Baku\ provides\ remarkable\ photo\ ops\ at\ every\ corner!\ \ #F1\ #Formula1\ #AzerbaijanGP\ #Baku\ #BakuCityCircuit.jpg);
+}
+
+.cart2 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Baku\ Azerbaijan\ \(1\).jpg);
+
+}
+
+.cart3 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./download\ \(1\).jpg);
+}
+
+.cart4 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Omar\ Zoer\ Visits\ Heydar\ Aliyev\ Center\ -\ Parametric\ Architecture.png);
+}
+.cart5 {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Icheri\ Sheher.jpg)
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cart1:hover {
+    transform: translateY(-10px);
+}
+.cart2:hover {
+    transform: translateY(-10px);
+}
+.cart3:hover {
+    transform: translateY(-10px);
+}
+.cart4:hover {
+    transform: translateY(-10px);
+}
+.cart5:hover {
+    transform: translateY(-10px);
+}
